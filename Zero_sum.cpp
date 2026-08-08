@@ -29,7 +29,7 @@ int main()
         {
             cout << "NO\n";
         }
-        else if (countP % 2 == (n / 2) % 2)
+        else if (countP % 2 == (n / 2) % 2)    // positve 1 must be equal to n/2.
         {
             cout << "YES\n";
         }
@@ -41,3 +41,6 @@ int main()
 
     return 0;
 }
+
+// tc=O(n)
+// sc=O(1)
